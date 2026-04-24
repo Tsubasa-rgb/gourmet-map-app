@@ -8,8 +8,14 @@
 
 ---
 
+## 💻 推奨環境
+PC
+※スマートフォンでも動作しますが、UIの最適化は今後改善予定です
+
+---
+
 ## 🔗 デモ
-https://
+https://gourmet-map-app-sigma.vercel.app
 
 ---
 
