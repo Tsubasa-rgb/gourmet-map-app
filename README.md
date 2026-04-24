@@ -1,16 +1,49 @@
-# React + Vite
+# 🍽️ グルメマップアプリ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 概要
+地図上にお気に入りのお店を記録・管理できるアプリです。  
+訪問履歴やジャンルごとの管理、ランダムにお店を決めるルーレット機能を実装しています。
 
-Currently, two official plugins are available:
+一般的な地図アプリでは情報量が多く、店選びに時間がかかるという課題に着目し、本アプリでは登録した店舗のみに情報を絞ることで、効率的に意思決定できるよう工夫しました。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🔗 デモ
+https://
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 主な機能
+- 📍 マップ上にお店を登録
+- 🏷️ ジャンル管理（追加・削除）
+- ⭐ 訪問レベル管理
+- 🔍 検索・フィルター機能
+- 📋 リスト表示
+- 🎯 ルーレット機能（ジャンル→お店抽選）
+- 📍 チェックイン機能（訪問回数・最終訪問日記録）
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💡 工夫した点
+- 地図と連動した直感的なUI設計
+- ジャンル・訪問レベルによる柔軟なフィルタリング
+- ローカルストレージを用いたデータ永続化
+- ユーザーが店選びに迷わないためのルーレット機能
+
+---
+
+## 🛠️ 使用技術
+- React
+- Vite
+- Google Maps API
+- JavaScript（ES6）
+- CSS
+
+---
+
+## 🚀 今後の改善
+- Firebaseなどを用いたデータのクラウド保存（複数端末間でのデータ共有を可能にするため）
+- ログイン機能の追加（ユーザーごとのデータ管理を実現するため）
+- UI/UXの改善（より直感的で使いやすい操作性の向上）
+- 訪問記録に基づいたランキング機能の実装（利用履歴の可視化）
+- スマートフォン向けの表示最適化（レスポンシブ対応）
